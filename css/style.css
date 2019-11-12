@@ -1,0 +1,95 @@
+#container{
+  width: 700px;
+  margin: auto;
+}
+
+body {
+  background-image: url(../img/download.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  /* background-color: red */
+}
+
+.header-top{
+  background-color: green
+  height: 90px;
+  line-height: : 90px;
+
+}
+.logo{
+  height: 80px;
+  vertical-align: middle;
+}
+.logo-title{
+  display: inline;
+  color: white;
+}
+.hr{
+  size 3px solid white;
+}
+
+/* button */
+.button-search {
+  border-radius: 10px;
+}
+/* fin button */
+
+/* inizio main */
+main{
+  /* background-color: green */
+}
+
+/* scritta "unread" */
+.unread{
+  color: white;
+}
+
+.unread span{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 30px;
+  padding: 6px;
+  border-radius: 100%;
+  background-color: #FF7F50;
+  box-sizing: 30px;
+}
+/* fine scritta unread */
+
+/* inizio elenco email */
+
+.elenco-email p{
+  display: inline;
+}
+
+.elenco-email {
+  background-color: grey;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+.email-unread p {
+  display: inline;
+}
+
+.email-unread {
+  background-color: white;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+/* fine elenco email */
+
+/* inizio footer */
+footer{
+  /* background-color: blue */
+  color: white;
+  text-align: center;
+  }
+
+  /* fine footer */
