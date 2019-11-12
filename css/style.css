@@ -1,10 +1,12 @@
 #container{
   width: 700px;
   margin: auto;
+  box-sizing: border-box;
+  padding: 0;
 }
 
 body {
-  background-image: url(../img/download.jpeg);
+  background-image: url(https://ardec.ca/media/img/catalog/products/extras/topoil-incolore-cerisier_FmkRbrW.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
