@@ -4,22 +4,18 @@
   box-sizing: border-box;
   padding: 0;
 }
-
+/* inizio body */
 body {
   background-image: url(https://ardec.ca/media/img/catalog/products/extras/topoil-incolore-cerisier_FmkRbrW.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-header {
-  /* background-color: red */
-}
-
-.header-top{
+/* fine body */
+/* inizio header */
+header-top{
   background-color: green
   height: 90px;
   line-height: : 90px;
-
 }
 .logo{
   height: 80px;
@@ -30,14 +26,15 @@ header {
   color: white;
 }
 .hr{
-  size 3px solid white;
+  size: 3px solid white;
 }
-
 /* button */
 .button-search {
   border-radius: 10px;
 }
 /* fine button */
+
+/* fine header */
 
 /* inizio main */
 
@@ -45,7 +42,6 @@ header {
 .unread{
   color: white;
 }
-
 .unread span{
   width: 30px;
   height: 30px;
@@ -65,30 +61,24 @@ header {
 .elenco-email p{
   display: inline;
 }
-
 .elenco-email {
   background-color: grey;
   border: 1px solid black;
   padding: 3px;
 }
-
 .email-unread p {
   display: inline;
 }
-
 .email-unread {
   background-color: white;
   border: 1px solid black;
   padding: 3px;
 }
-
 /* fine elenco email */
-
 /* inizio footer */
 footer{
   /* background-color: blue */
   color: white;
   text-align: center;
   }
-
   /* fine footer */
